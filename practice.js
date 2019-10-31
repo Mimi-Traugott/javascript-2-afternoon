@@ -14,7 +14,11 @@
   Then alert your name using dot notation.
 */
 
-//Code here
+let me = {
+  name: 'Meemz',
+  age: 29
+}
+alert(me.name)
 
 ////////// PROBLEM 2 //////////
 
@@ -24,6 +28,14 @@
 */
 
 //Code here
+let favoriteThings = {
+  band: 'Shook Twins',
+  food: 'cookies',
+  person: 'Rob',
+  book: 'When Women Were Birds',
+  movie: 'Up',
+  holiday: 'Thanksgiving'
+}
 
 /*
   After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car
@@ -31,6 +43,8 @@
 */
 
 //Code here
+favoriteThings.car = 'Subaru'
+favoriteThings.brand = 'Outback'
 
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
@@ -38,6 +52,8 @@
 */
 
 //Code here
+favoriteThings.food = 'Chicken Nuggets'
+favoriteThings.book = 'Harry Potter'
 
 ////////// PROBLEM 3 //////////
 
