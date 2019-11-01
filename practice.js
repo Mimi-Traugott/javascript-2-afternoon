@@ -56,7 +56,6 @@ favoriteThings.food = 'Chicken Nuggets'
 favoriteThings.book = 'Harry Potter'
 
 ////////// PROBLEM 3 //////////
-
 /*
   Create an empty Object called backPack.
   Now, create a variable called item and set it equal to the string 'firstPocket'.
@@ -64,14 +63,12 @@ favoriteThings.book = 'Harry Potter'
   Set the value of that key to 'chapstick'.
   Using dot notation, add another key (or property) to your backPack object that is named color, with the value being the color of your backpack.
 */
-
 //Code here
 let backPack = {}
 let item = 'firstPocket'
 
 backPack[item] = 'chapstick'
 backPack.color = 'green'
-
 /*
   After you do the above, alert your entire backPack object.
 */
@@ -132,11 +129,9 @@ methodCollection = {
     console.log('hello')
   }
 }
-
 /*
   Now call your alertHello and logHello methods.
 */
-
 //Code Here
 alertHello()
 logHello()
@@ -150,8 +145,13 @@ logHello()
 
 //Code Here
 function makePerson (name, birthday, ssn){
-  return newObj = {}
-}
+  return {
+    name:name,
+    birthday:birthday,
+    ssn:ssn
+  }
+  }
+
 
 ////////// PROBLEM 7 //////////
 
@@ -162,5 +162,9 @@ function makePerson (name, birthday, ssn){
 
 //Code Here
 function makeCard (cardNumber, expirationDate, securityCode){
-  return
+  return {
+    cardNumber: cardNumber,
+    expirationDate: expirationDate,
+    securityCode: securityCode
+  }
 }
